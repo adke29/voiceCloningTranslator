@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # voices sample
-.voices
-voices/
+.voicescache
+voicescache/

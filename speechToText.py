@@ -7,5 +7,7 @@ def stt(lang):
         print("speak now: ")
         audio = r.listen(source)
         result = r.recognize_google(audio, language=lang)
-        return result
+    with open("./voices/original.wav", "wb") as file:
+        file.write(audio.get_wav_data())    
+    return result
 

@@ -8,4 +8,4 @@ if __name__ == '__main__':
     language_destination="zh-tw"
     text = stt(language_origin) #get text from user speech via microphone with english language
     translatedText=translate(text,language_destination) #translate user speech to chinese
-    tts(translatedText,'zh-TW','test') #text to speech translated text
+    tts(translatedText,'zh-TW') #text to speech translated text
